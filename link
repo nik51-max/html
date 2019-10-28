@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>NIK SPORT</title>
+	</head>
+	<body>
+		<h1>link tage</h1>
+		<p>this is an example of a link tag</p>
+		<a href="https://www.uci.org" target="_blank" title="this is my link">click here UCI</a>
+	</body>
+</html>
