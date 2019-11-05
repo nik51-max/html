@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title></title>
+
+<script type="text/javascript">
+	
+function IfRain() 
+{
+	let inputRain = prompt("Is it rainning? 1-yes");
+
+	if (inputRain ==1)
+	{
+		alert("take unbrella")
+	}
+	else
+		{ 
+			alert("dont take unbrella");
+		}
+
+
+}
+
+function Rain1()
+
+{
+	let inputvancouver = prompt("is it rain? 1 - yes, 2 - vancouver");
+ if (inputvancouver ==1 || 2) { alert("take unbrella")}
+ 	else{
+ 		alert("dont take unbrella")
+ 	}
+}
+ 
+ function rain2()
+ {
+ 	let rain2 = parseInt(prompt("Is iot rainning? 1-yes / 2- no / 3 - i live in vancouver"),10);
+ 	switch(rain2)
+ 	{
+ 		case 1: alert("take umbrella");
+ 		break;
+ 		case 2: alert("do not take umbrella");
+ 		break;
+ 		case 3: alert("Always take umbrella");
+ 		break;
+ 		//default:alert("next time choose a valid answer")
+ 		default: rain2()
+ 	}
+
+ }
+
+
+function fruit()
+{
+	let fruit = "apple";
+	let userInput = prompt("what is your faivorite fruit?")
+	for(userInput;userInput<0;)
+	if( userInput.toLowerCase()=== fruit){
+		console.log("you win apple prize")
+	}
+	else{console.log("you lost");}
+
+}
+
+
+
+function number(){
+	let i = 0
+	for(i=0;i<11;i+=1){
+		console.log(i);
+	}
+
+}
+</script>
+
+
+
+</head>
+<body>
+	<h1>Switch</h1>
+	<button onclick="Rain()">check rain</button>
+	<br><hr>
+	<h1>if statement</h1>
+	<button onclick="IfRain()">click rain</button>
+  
+
+	<br><hr>
+	<h1>vancuver</h1>
+	<button onclick="Rain1()">click Rain</button>
+	<br><hr>
+	<h1>cheke rain</h1>
+	<button onclick="rain2()">check</button>
+	<br><hr>
+
+	<h1>check fruit</h1>
+	<button onclick="fruit()">check fruit?</button>
+	<br><hr> 
+
+	<h1>number 10</h1>
+	<button onclick="number()"> number </button>
+
+</body>
+</html>
